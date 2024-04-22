@@ -1,0 +1,12 @@
+.bg__principal {
+  background: url("../../dist/images/background_principal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+
+  @media(max-width: 600px){
+    background: url("../../dist/images/small_principal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
